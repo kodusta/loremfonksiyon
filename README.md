@@ -10,8 +10,11 @@ You can use the `LoremIpsum` function to generate Lorem Ipsum text in two differ
 
 To generate a single sentence of Lorem Ipsum, you can use the following code:
 
+
+
 ```php
 LoremIpsum('sentence');
+```
 
 
 This will return: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
@@ -21,6 +24,7 @@ To generate paragraphs of Lorem Ipsum, you can use the following code:
 
 ```php
  LoremIpsum('paragraphs', $num);
+```
 
 Replace $num with the number of paragraphs you want to generate.
 If you don't specify the number of paragraphs, the function will return a single paragraph of Lorem Ipsum text.
@@ -31,6 +35,7 @@ Here's an example of how to use the LoremIpsum function to generate three paragr
 ```php
 $LoremIpsumText = LoremIpsum('paragraphs', 3);
 echo $LoremIpsumText;
+```
 
 This will output:
 
